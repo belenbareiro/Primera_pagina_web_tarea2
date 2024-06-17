@@ -54,6 +54,10 @@ div,li {
   padding: 50px 10% 30px;
 }
 .key {
+  display:flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
   height: 500px;
   background: center / cover no-repeat url("../images/sample_key.jpg");
   font-family: 'Noto Serif JP', serif;
@@ -61,6 +65,7 @@ div,li {
 }
 .key h1{
   font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 .section_title {
   font-family: 'Noto Serif JP', serif;
